@@ -1,4 +1,5 @@
 import com.varabyte.kobweb.gradle.application.util.configAsKobwebApplication
+import kotlinx.html.link
 
 plugins {
     alias(libs.plugins.kotlin.multiplatform)
@@ -8,12 +9,18 @@ plugins {
 }
 
 group = "com.looker.portfolio"
-version = "1.0-SNAPSHOT"
+version = "1.0"
 
 kobweb {
     app {
         index {
-            description.set("Powered by Kobweb")
+            description.set("Portfolio of Mohit")
+
+            head.add {
+                link(rel = "stylesheet", href = "https://fonts.googleapis.com/css2?family=Poppins&display=swap")
+                link(rel = "stylesheet", href = "https://fonts.googleapis.com/css2?family=Roboto&display=swap")
+            }
+
         }
     }
 }
