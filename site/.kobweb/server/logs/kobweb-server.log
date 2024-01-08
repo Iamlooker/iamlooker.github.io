@@ -1,0 +1,8 @@
+2024-01-08 23:18:07.150 [main] DEBUG ktor.application - Java Home: C:\Program Files\Android\Android Studio
+2024-01-08 23:18:07.154 [main] DEBUG ktor.application - Class Loader: jdk.internal.loader.ClassLoaders$AppClassLoader@28c97a5: [file:/D:/Projects/Portfolio/site/.kobweb/server/server.jar!/ch]
+2024-01-08 23:18:07.157 [main] INFO  ktor.application - No ktor.deployment.watch patterns match classpath entries, automatic reload is not active
+2024-01-08 23:18:07.231 [main] WARN  ktor.application - API jar specified but does not exist! Please fix conf.yaml. Invalid path: "build\libs\portfolio.jar"
+2024-01-08 23:18:07.352 [main] INFO  ktor.application - Application started in 0.287 seconds.
+2024-01-08 23:18:07.687 [main] INFO  ktor.application - Responding at http://127.0.0.1:8080
+2024-01-08 23:20:46.274 [kotlinx.coroutines.DefaultExecutor] INFO  ktor.application - Kobweb server shutting down...
+2024-01-08 23:20:48.432 [kotlinx.coroutines.DefaultExecutor] INFO  ktor.application - Server finished shutting down.
