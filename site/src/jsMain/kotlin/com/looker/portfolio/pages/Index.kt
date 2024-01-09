@@ -156,7 +156,7 @@ fun ResumeCard(
 fun HireMeCard(
     modifier: Modifier = Modifier
 ) {
-    Link(GitHubProfile, modifier = modifier) {
+    Link(UpWork, modifier = modifier) {
         Card(
             modifier = ScalableButtonStyle.toModifier()
                 .fillMaxSize()
